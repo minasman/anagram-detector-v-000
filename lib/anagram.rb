@@ -13,3 +13,6 @@ class Anagram
     
   end 
 end 
+
+detector = Anagram.new('ba')
+ba = detector.match(['ab', 'abc', 'bac'])
